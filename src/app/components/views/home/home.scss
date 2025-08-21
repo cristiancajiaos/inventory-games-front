@@ -1,0 +1,27 @@
+.home {
+  .home-link {
+    text-align: center;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        .home-container {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+
+    .home-container {
+      border: 1px solid black;
+      border-radius: 15px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    border-radius: 15px;
+  }
+}

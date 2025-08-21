@@ -12,6 +12,10 @@ import {provideHttpClient, withFetch} from '@angular/common/http';
 import {ToastrModule} from 'ngx-toastr';
 import {provideSweetAlert2} from '@sweetalert2/ngx-sweetalert2';
 import {RouterModule} from '@angular/router';
+import { Home } from './components/views/home/home';
+import { Games } from './components/views/games/games';
+import { Consoles } from './components/views/consoles/consoles';
+import { NotFound } from './components/views/not-found/not-found';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import {RouterModule} from '@angular/router';
     Layout,
     Navbar,
     Main,
-    Footer
+    Footer,
+    Home,
+    Games,
+    Consoles,
+    NotFound
   ],
   imports: [
     BrowserModule,
